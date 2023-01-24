@@ -89,7 +89,8 @@ li,a{
 .box-1{
     background:linear-gradient(170deg,#2ebf60,#12895e); 
     color: azure;
-    padding: 30px
+    padding: 30px;
+    height:900px;
 }
 
 .head-text{
