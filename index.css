@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+li,a{
+    list-style: none;
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:grey;
+    color: azure;
+}
+.link{
+    display: flex;
+    gap: 30px;
+}
+
