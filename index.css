@@ -23,7 +23,9 @@ li,a{
     justify-content: space-between;
     padding: 30px;
     color: azure;
-    
+}
+.quote{
+    font-family: ;
 }
 .link{
     display: flex;
