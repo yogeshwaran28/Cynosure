@@ -5,4 +5,5 @@ a.addEventListener("click",toggle);
 
 function toggle() {
 	b.classList.toggle('active');
+	
 }
