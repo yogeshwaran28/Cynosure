@@ -75,19 +75,6 @@ document.getElementById("demo").innerHTML = days + "d "
 
 
 
-let head1 = document.getElementById('head1');
-	let quote2 = document.getElementById('quote2');
-	let quote = document.getElementById('quote');
-	
-
-	window.addEventListener('scroll', function () {
-		let value = window.scrollY;
-		head1.style.marginTop = value * -0.9 + 'px';
-		quote2.style.marginTop = value * -3 + 'px';
-		quote.style.marginTop = value * -3.3 + 'px';
-		
-		
-	})
 
 	let progress = document.getElementById('progressbar');
 	let totalHeight = document.body.scrollHeight -

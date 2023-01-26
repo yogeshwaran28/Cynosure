@@ -58,6 +58,7 @@ html{
 
 .button{
   border-radius: 20px !important;
+  box-shadow: 10PX 10PX 10PX black;
 }
 .container h2{
   text-align: center;
@@ -97,6 +98,7 @@ html{
   padding: 16px;
   box-shadow: inset 4px 5px 6px rgb(109, 70, 203);
   bottom: 20px;
+  box-shadow: 10PX 10PX 10PX black;
   text-align: center;
   border-radius: 15px;
  
