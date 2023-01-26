@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Rancho&family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Rancho&family=Solitreo&display=swap');
 *{  margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -45,8 +45,13 @@ html{
     font-size: 18px;
 }
 
-
-
+.link-cont{
+  margin-left: 80vh;
+}
+.container h2{
+  text-align: center;
+  padding: 30px;
+}
 
 .menubar img{
     height: 100px;
@@ -55,21 +60,25 @@ html{
 }
 
 .menubar{
+    position:fixed;
+    display:flex;
     position:sticky;
     position:-webkit-sticky;
     top: 0px;
- 
     display: flex;
     background: transparent;
     justify-content: space-between;
     padding: 10px 30px 10px;
     color: azure;
+    z-index: 150;
     height: 100px;
-   
 }
 .quote{
     font-family: 'Aboreto';
-    font-weight: bold;
+    font-weight:bold;
+    font-size:30px;
+    letter-spacing: 3px;
+    margin-top: 90px;
 }
 #demo{
   font-size: 26px;
@@ -84,9 +93,8 @@ html{
   bottom: 20px;
   text-align: center;
   border-radius: 15px;
- 
- 
 }
+
 .out{
   -webkit-box-align: center;
   -webkit-box-pack: center;
@@ -98,23 +106,23 @@ html{
  border-radius: 20px;
  padding: 10px;
 }
+
 .quote2{
-  color: azure;
+  color:indigo;
   font-size: 20px;
-  font-family: 'Solitreo';
+  font-family: 'Crimson Text';
+  font-weight: bold;
 }
+
 .link-cont{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     margin-top: 25px;
 }
+
 .link-cont a {
   padding: 10px;
 }
-
-
-
-
 .toggle-button {
   display: none;
   justify-content: space-between;
@@ -129,7 +137,6 @@ html{
   transition: all 0.5s ease-out;
 }
 .toggle-button .bar{
-
 	border: solid;
 	border-radius: 8px;
 	border-color: white;
@@ -140,9 +147,8 @@ html{
   transition: all 0.5s ease-out;
 }
 .head1{
-
   justify-content: center;
-
+  margin-top: 20vh;
   text-align: center;
   color: azure;
 }
@@ -245,7 +251,6 @@ html{
     
   
   }
-  
         /* Adding transform to the X */
         .toggle-button.close {
           transform: rotate(180deg);
