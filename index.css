@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Rancho&family=Solitreo&display=swap');
 *{  margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -62,7 +62,13 @@ html{
     color: azure;
 }
 .quote{
-    font-family: 'Rancho';
+    font-family: 'Aboreto';
+    font-weight: bold;
+}
+.quote2{
+  color: azure;
+  font-size: 20px;
+  font-family: 'Solitreo';
 }
 .link-cont{
     display: flex;
