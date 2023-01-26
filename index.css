@@ -192,6 +192,7 @@ html {
 .bt {
   width: fit-content;
   margin: auto;
+  position: relative;
 }
 
 .btn:hover {

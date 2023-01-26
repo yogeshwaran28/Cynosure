@@ -62,24 +62,6 @@ var x = setInterval(function () {
 	}, 1000);
 })
 
-	let head1 = document.getElementById('head1');
-	let quote2 = document.getElementById('quote2');
-	let quote = document.getElementById('quote');
-
-	window.addEventListener('scroll', function () {
-		let value = window.scrollY;
-		head1.style.marginTop = value * 0.6 + 'px';
-		quote2.style.marginLeft = value * -3 + 'px';
-		quote.style.marginLeft = value * 3.3 + 'px';
-	})
-
-	let progress = document.getElementById('progressbar');
-	let totalHeight = document.body.scrollHeight -
-		window.innerHeight;
-	window.onscroll = function () {
-		let progressHeight = (window.pageYOffset / totalHeight) * 100;
-		progress.style.height = progressHeight + "%";
-	}
 
 	// $(document).ready(function () {
 	// 	$(window).scroll(function () {
