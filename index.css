@@ -23,6 +23,7 @@ html{
   color: azure;
     margin-top: 7px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .menubar img{
@@ -59,11 +60,10 @@ html{
   flex-direction: column;
   top: 2.6rem;
   width: 30px;
+
+  height: 20px;
   height: 22px;
- 
-
   cursor: pointer;
-
   transition: all 0.5s ease-out;
 }
 .toggle-button .bar{
@@ -71,7 +71,7 @@ html{
 	border: solid;
 	border-radius: 8px;
 	border-color: white;
-  border-width: 2px;
+  border-width: 1px;
 	background-color: white;
 	height: 1px;
 	width: 100%;
@@ -166,7 +166,7 @@ html{
 
       /* Styling the three lines to make it an X */
       .toggle-button.close .bar:nth-child(1) {
-          transform: rotate(45deg) translate(7px, 7px);
+          transform: rotate(45deg) translate(5px, 5px);
       }
 
       .toggle-button.close .bar:nth-child(2) {
