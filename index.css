@@ -145,7 +145,7 @@ html{
 }
 
 .head-text{
-    color: azure;
+    color: #e8f1f1;
     text-align: center;
     
     font-family: koulen;
@@ -247,3 +247,16 @@ html{
 
 
 }
+
+.end{
+  text-align: center;
+  color: #fafafc;
+  text-shadow:10PX 10PX 10PX black;
+  stroke-width: 100px;
+  font-stretch: semi-expanded;
+  stroke: #ffffff;
+  width: 200px;
+  margin: auto;
+  
+}
+
