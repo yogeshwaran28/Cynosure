@@ -60,11 +60,8 @@ html{
   flex-direction: column;
   top: 2.6rem;
   width: 30px;
-  height: 30px;
- 
-
+  height: 20px;
   cursor: pointer;
-
   transition: all 0.5s ease-out;
 }
 .toggle-button .bar{
@@ -72,7 +69,7 @@ html{
 	border: solid;
 	border-radius: 8px;
 	border-color: white;
-  border-width: 2px;
+  border-width: 1px;
 	background-color: white;
 	height: 1px;
 	width: 100%;
