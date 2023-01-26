@@ -119,41 +119,4 @@ li,a{
     flex-direction: column;
     margin-top: 20px;
     text-align: center;
-<<<<<<< HEAD
 }*/
-=======
-    padding: 20px;
-    border-radius: 15px;
-    background: rgb(164, 164, 164);
-  }
-  .link a {
-    width: 100px;
-    margin: auto;
-  }
-  .link li {
-    height: 20px;
-  }
-  .toggle-button {
-    display: flex;
-  }
-  .link.active {
-    display: flex;
-  }
-}
-
-.box-1 {
-  background: linear-gradient(170deg, #2ebf60, #12895e);
-  color: azure;
-  padding: 30px;
-  height: 900px;
-}
-
-.head-text {
-  text-align: center;
-  background-color: #65bc68;
-  padding: 10px;
-  width: fit-content;
-  margin: auto;
-  border-radius: 10px;
-}
->>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
