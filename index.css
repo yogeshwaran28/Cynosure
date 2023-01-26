@@ -131,11 +131,10 @@ html{
 .head-text{
     color: azure;
     text-align: center;
-    background: rgba(24, 23, 23, 0.3);
+    width: 50%;
+    margin-left: 45svh;
     font-family: koulen;
-    width: 60%;
-    margin-left: 34vh;
-    
+
 }
 
 
