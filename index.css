@@ -40,13 +40,11 @@ html {
   margin: 20px auto;
 }
 
-.carousel-caption h3,
-p {
+.carousel-caption h3,p {
   color: black;
 }
 
-.link-cont a,
-li {
+.link-cont a,li {
   list-style: none;
   text-decoration: none;
   color: azure;
@@ -186,18 +184,18 @@ li {
 }
 
 .btn {
-  border: 2px solid !important;
-  padding: 10px !important;
-  font-size: 20px !important;
+  border: 2px solid ;
+  padding: 10px ;
+  font-size: 20px ;
 }
 
 .bt {
-  width: fit-content !important;
-  margin: auto !important;
+  width: fit-content;
+  margin: auto;
 }
 
 .btn:hover {
-  padding: 12px !important;
+  padding: 12px ;
 }
 
 #primary li {
@@ -299,10 +297,6 @@ li {
   .navbar.show {
     visibility: visible;
   }
-
-
-
-
 }
 
 .end {
