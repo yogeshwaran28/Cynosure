@@ -1,5 +1,5 @@
-* {
-  margin: 0px;
+
+*{  margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -17,7 +17,6 @@ html{
     background: linear-gradient(135deg, var(--primary),var(--secondary),var(--tertiary)),url(/images/bg.jpg);
     background-size: cover;
 }
-
 li,a{
     list-style:none;
     text-decoration:none;
@@ -50,11 +49,8 @@ li,a{
 .link a {
   padding: 10px;
 }
-.link a:hover {
-  background-color: aliceblue;
-  border-radius: 10px;
-  color: black;
-}
+
+
 .toggle-button {
   display: none;
   justify-content: space-between;
