@@ -94,11 +94,14 @@ html{
  border-radius: 20px;
  padding: 10px;
 }
+
 .quote2{
   color: azure;
   font-size: 20px;
   font-family: 'Crimson Text';
+  margin-top: 5px;
 }
+
 .link-cont{
     display: flex;
     gap: 30px;
@@ -136,7 +139,7 @@ html{
 .head1{
 
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 40px;
   text-align: center;
   color: azure;
 }
