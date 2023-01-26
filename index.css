@@ -3,6 +3,19 @@
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    /* background: linear-gradient(170deg, #2ebf60, #12895e); */
+    /* background:url(images/bg1.jpg);  */
+    
+}
+.bg{
+   background: url(images/bg1.jpg); 
+   object-fit:fill;
+   background-repeat: no-repeat,repeat;
+   background-size: cover;
+   height: 900px;
+   z-index: 1;
+}
 
 li,
 a {
@@ -10,24 +23,33 @@ a {
   text-decoration: none;
   color: azure;
   margin-top: 7px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .navbar img {
   height: 100px;
   width: 10rem;
   border-radius: 13px;
+  border-top: -20px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0px;
+  padding: 20px;
   color: azure;
+  background: rgba(250,250,250,0.2);
 }
 .link {
   display: flex;
   gap: 30px;
-  background:url(images/j.jpg);
+  padding: 30px;
+}
+.sticky{
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
 }
 .link a {
   padding: 10px;
@@ -46,7 +68,7 @@ a {
   top: 3.7rem;
   width: 30px;
   height: 30px;
-  z-index: 3;
+ 
 
   cursor: pointer;
 
@@ -58,6 +80,7 @@ a {
   border-radius: 10px;
   border-color: white;
   background-color: white;
+  border-width: 1px;
   height: 1px;
   width: 100%;
 
@@ -98,6 +121,9 @@ a {
 @media (width<900px) {
   .navbar {
     flex-direction: column;
+   
+    /* opacity: 0.4;
+    filter: alpha(opacity=50); */
   }
   .link {
     display: none;
@@ -106,11 +132,19 @@ a {
     text-align: center;
     padding: 20px;
     border-radius: 15px;
-    background: rgb(164, 164, 164);
+    background-color: rgba(250,250,250,0.5);
+    position: absolute;
+    z-index: ;
+    right: 5vh;
+    width: 20vh;
+    top: 80px;
+    
   }
   .link a {
     width: 100px;
     margin: auto;
+    color:black;
+    
   }
   .link li {
     height: 20px;
@@ -123,18 +157,12 @@ a {
   }
 }
 
-.box-1 {
-  background: linear-gradient(170deg, #2ebf60, #12895e);
-  color: azure;
-  padding: 30px;
-  height: 900px;
-}
-
-.head-text {
+.head-text{
+  position: relative;
+  background-color: aquamarine;
   text-align: center;
-  background-color: #65bc68;
-  padding: 10px;
   width: fit-content;
-  margin: auto;
-  border-radius: 10px;
+  margin: 30px auto;
+  z-index: 0;
+  
 }
