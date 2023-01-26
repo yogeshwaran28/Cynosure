@@ -1,77 +1,73 @@
 let a = document.getElementsByClassName('toggle-button')[0];
 let b = document.getElementsByClassName('link-cont')[0];
- a.addEventListener("click",toggle);
+a.addEventListener("click", toggle);
 
 function toggle() {
- 	b.classList.toggle('active');
-	 }
+	b.classList.toggle('active');
+}
 
+const menuBtn =
 
-const menuBtn = 
+	document.querySelector(".toggle-button");
 
-document.querySelector(".toggle-button");
+const menu =
 
-
-const menu = 
-
-document.querySelector(".navbar");
-
-
-
+	document.querySelector(".navbar");
 
 let showMenu = false;
 
-
 menuBtn.addEventListener("click", toggleMenu);
-
 
 function toggleMenu() {
 
-if (!showMenu) {
+	if (!showMenu) {
 
-	menuBtn.classList.toggle("close");
+		menuBtn.classList.toggle("close");
 
-	menu.classList.toggle("show");
-
-	
-
+		menu.classList.toggle("show");
 	// Reset the menu state
-
-	showMenu = true;
-
-} else {
-
-	menuBtn.classList.remove("close");
-
-	menu.classList.remove("show");
-
-	
-
-
-	// Reset the menu state
-
-	showMenu = false;
-
-}
+		showMenu = true;
+	} else {
+		menuBtn.classList.remove("close");
+		menu.classList.remove("show");
+		// Reset the menu state
+		showMenu = false;
+	}
 
 }
 
 var deadline = new Date("feb 8, 2023 12:00:00").getTime();
-var x = setInterval(function() 
-{
-var now = new Date().getTime();
-var t = deadline - now;
-var days = Math.floor(t / (1000 * 60 * 60 * 24));
-var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((t % (1000 * 60)) / 1000);
-document.getElementById("demo").innerHTML = days + "d "
-+ hours + "h " + minutes + "m " + seconds + "s ";
+var x = setInterval(function () {
+	var now = new Date().getTime();
+	var t = deadline - now;
+	var days = Math.floor(t / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((t % (1000 * 60)) / 1000);
+	document.getElementById("demo").innerHTML = days + "d "
+		+ hours + "h " + minutes + "m " + seconds + "s ";
 	if (t < 0) {
 		clearInterval(x);
 		document.getElementById("demo").innerHTML = "EXPIRED";
 	}
 }, 1000);
 
+let head1 = document.getElementById('head1');
+let quote2 = document.getElementById('quote2');
+let quote = document.getElementById('quote');
 
+window.addEventListener('scroll',function(){
+	let value = window.scrollY;
+	head1.style.marginTop = value * 0.6 + 'px';
+	quote2.style.marginLeft = value * -3 + 'px';
+	quote.style.marginLeft = value * 3.3 + 'px';
+})
+
+let progress = document.getElementById('progressbar');
+let totalHeight = document.body.scrollHeight -
+    window.innerHeight;
+window.onscroll = function () {
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+}
 

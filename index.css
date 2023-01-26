@@ -41,8 +41,9 @@ html{
     font-weight: bold;
     font-size: 18px;
 }
-
-
+.link-cont{
+  margin-left: 80vh;
+}
 .container h2{
   text-align: center;
   padding: 30px;
@@ -55,11 +56,12 @@ html{
 }
 
 .menubar{
-    position:relative;
-    display: flex;
+    position:fixed;
+    display:flex;
     justify-content: space-between;
     padding: 10px 30px 30px;
     color: azure;
+    z-index: 150;
 }
 .quote{
     font-family: 'Aboreto';
@@ -96,17 +98,18 @@ html{
 }
 
 .quote2{
-  color: azure;
+  color:indigo;
   font-size: 20px;
   font-family: 'Crimson Text';
-  margin-top: 5px;
+  font-weight: bold;
 }
 
 .link-cont{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     margin-top: 25px;
 }
+
 .link-cont a {
   padding: 10px;
 }
@@ -137,9 +140,8 @@ html{
   transition: all 0.5s ease-out;
 }
 .head1{
-
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20vh;
   text-align: center;
   color: azure;
 }
