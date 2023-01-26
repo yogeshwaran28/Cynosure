@@ -1,95 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Rancho&family=Solitreo&display=swap');
-
-* {
-  margin: 0px;
+*{  margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-html {
-  scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;
 }
-
-:root {
-  --primary: hsla(191, 86%, 49%, 0.5);
-  --secondary: hsla(280, 78%, 69%, 0.5);
-  --tertiary: hsla(356, 90%, 64%, 0.5);
+:root{
+    --primary: hsla(191, 86%, 49%,0.5);
+    --secondary:hsla(280, 78%, 69%,0.5);
+    --tertiary: hsla(356, 90%, 64%,0.5);
 }
-
-.box-1 {
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(135deg, var(--primary), var(--secondary), var(--tertiary)), url(/images/bg.jpg);
-  background-size: cover;
-  object-fit: contain;
-  position: relative;
-
+.box-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, var(--primary),var(--secondary),var(--tertiary)),url(/images/bg.jpg);
+    background-size: cover;
+    object-fit: contain;
 }
-
-.box {
+.box{
   height: 400px;
   width: 400px;
   margin: auto;
-
-
+  
+ 
 }
-
-.box img {
+.box img{
   height: 200px;
   width: 200px;
   margin: 20px auto;
 }
-
-.carousel-caption h3,p {
+.carousel-caption h3,p{
   color: black;
 }
-
-.link-cont a,li {
-  list-style: none;
-  text-decoration: none;
+.link-cont a,li{
+    list-style:none;
+    text-decoration:none;
   color: azure;
-  margin-top: 7px;
-  font-weight: bold;
-  font-size: 18px;
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.link-cont {
-  margin-left: 80vh;
-}
 
-.container h2 {
+.container h2{
   text-align: center;
   padding: 30px;
 }
 
-.menubar img {
-  height: 100px;
-  width: 18rem;
-  border-radius: 11px;
+.menubar img{
+    height: 100px;
+    width: 18rem;
+    border-radius: 11px; 
 }
 
-.menubar {
-  position: sticky;
-  display: flex;
-  top: 0px;
-  display: flex;
-  background: transparent;
-  justify-content: space-between;
-  padding: 10px 30px 10px;
-  color: white;
-  z-index: 150;
-  height: 80px;
+.menubar{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 30px;
+    color: azure;
 }
-
-.quote {
-  font-family: 'Aboreto';
-  font-weight: bold;
-  font-size: 30px;
-  letter-spacing: 3px;
-  margin-top: 90px;
+.quote{
+    font-family: 'Aboreto';
+    font-weight:bold;
+    font-size:30px;
+    letter-spacing: 3px;
+    margin-top: 90px;
 }
-
-#demo {
+#demo{
   font-size: 26px;
   color: rgb(0, 0, 0);
   border: 1px solid;
@@ -104,35 +83,33 @@ html {
   border-radius: 15px;
 }
 
-.out {
+.out{
   -webkit-box-align: center;
   -webkit-box-pack: center;
   display: -webkit-box;
 }
-
-.carousel-caption h3 {
+.carousel-caption h3{
   border: 2px solid;
   transition: all 0.5s ease-out;
-  border-radius: 20px;
-  padding: 10px;
+ border-radius: 20px;
+ padding: 10px;
 }
 
-.quote2 {
-  color: indigo;
+.quote2{
+  color:midnightblue;
   font-size: 20px;
   font-family: 'Crimson Text';
-  font-weight: bold;
 }
 
-.link-cont {
-  display: flex;
-  gap: 40px;
-  margin-top: 25px;
+.link-cont{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
 }
-
 .link-cont a {
   padding: 10px;
 }
+
 
 .toggle-button {
   display: none;
@@ -147,63 +124,42 @@ html {
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
+.toggle-button .bar{
 
-.toggle-button .bar {
-  border: solid;
-  border-radius: 8px;
-  border-color: white;
+	border: solid;
+	border-radius: 8px;
+	border-color: white;
   border-width: 1px;
-  background-color: white;
-  height: 1px;
-  width: 100%;
+	background-color: white;
+	height: 1px;
+	width: 100%;
   transition: all 0.5s ease-out;
 }
+.head1{
 
-.head1 {
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 40px;
   text-align: center;
   color: azure;
 }
-
-.head1 h2 {
+.head1 h2{
   font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
 
-/* .menubar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-} */
-
-.head-text {
-  color: #e8f1f1;
-  text-align: center;
-  font-family: koulen;
+.head-text{
+    color: azure;
+    text-align: center;
+    
+    font-family: koulen;
 }
 
-.btn {
-  border: 2px solid ;
-  padding: 10px ;
-  font-size: 20px ;
-}
-
-.bt {
-  width: fit-content;
-  margin: auto;
-  position: relative;
-}
-
-.btn:hover {
-  padding: 12px ;
-}
 
 #primary li {
   margin: 0 20px;
   position: relative;
 }
-
 #primary li a {
   text-decoration: none;
   display: block;
@@ -214,12 +170,11 @@ html {
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #9d1818, #0573bc 50%, #1d1a1afd 50%);
+  background-image: linear-gradient(to right,  #9d1818  , #0573bc 50%, #1d1a1afd 50% );
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
 }
-
 #primary li a:before {
   display: block;
   content: "";
@@ -230,84 +185,69 @@ html {
   bottom: -3px;
   z-index: 0;
   position: absolute;
-  background: linear-gradient(to left, #84ff3d, #2eabff);
+  background:linear-gradient(to left,#84ff3d, #2eabff) ;
   transition: all 0.3s ease-in-out;
 }
-
 #primary li a:hover {
   background-position: 0%;
 }
-
 #primary li a:hover:before {
   width: 100%;
 }
 
-@media (width<900px) {
-  .menubar {
+@media (width<900px){
+  .menubar{
 
     flex-direction: column;
   }
-
-  .link-cont {
+ 
+  .link-cont{
     display: none;
     width: 150px;
-    margin: auto;
+    margin: auto ;
     flex-direction: column;
     padding: 15px;
     border-radius: 20px;
     background: rgba(167, 167, 227, 0.9);
-    position: absolute;
+    position:absolute;
     right: 8vh;
     top: 15vh;
   }
-
-  .link-cont a,
-  li {
+  .link-cont a,li{
     color: azure;
     text-decoration: none;
   }
-
-  .toggle-button {
+  .toggle-button{
     display: flex;
   }
-
-  .link-cont.active {
+  .link-cont.active{
     display: flex;
-
-
+    
+  
   }
+  
+        /* Adding transform to the X */
+        .toggle-button.close {
+          transform: rotate(180deg);
+      }
 
-  /* Adding transform to the X */
-  .toggle-button.close {
-    transform: rotate(180deg);
-  }
+      /* Styling the three lines to make it an X */
+      .toggle-button.close .bar:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px);
+      }
 
-  /* Styling the three lines to make it an X */
-  .toggle-button.close .bar:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
+      .toggle-button.close .bar:nth-child(2) {
+          opacity: 0;
+      }
 
-  .toggle-button.close .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .toggle-button.close .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(9px, -9px);
-  }
-
+      .toggle-button.close .bar:nth-child(3) {
+          transform: rotate(-45deg) translate(9px, -9px);
+      }
   .navbar.show {
     visibility: visible;
-  }
 }
 
-.end {
-  text-align: center;
-  color: #fafafc;
-  text-shadow: 10PX 10PX 10PX black;
-  stroke-width: 100px;
-  font-stretch: semi-expanded;
-  stroke: #ffffff;
-  width: 200px;
-  margin: auto;
+
+
 
 }

@@ -62,7 +62,6 @@ var x = setInterval(function () {
 	}, 1000);
 })
 
-
 	// $(document).ready(function () {
 	// 	$(window).scroll(function () {
 	// 		var scroll = $(window).scrollTop();
