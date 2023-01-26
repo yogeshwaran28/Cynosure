@@ -65,7 +65,6 @@ html{
     font-family: 'Aboreto';
     font-weight: bold;
 }
-
 #demo{
   font-size: 26px;
   color: rgb(0, 0, 0);
@@ -86,6 +85,12 @@ html{
   -webkit-box-align: center;
   -webkit-box-pack: center;
   display: -webkit-box;
+}
+.carousel-caption h3{
+  border: 2px solid;
+  transition: all 0.5s ease-out;
+ border-radius: 20px;
+ padding: 10px;
 }
 .quote2{
   color: azure;
