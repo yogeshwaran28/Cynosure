@@ -74,12 +74,12 @@ window.addEventListener('scroll',function(){
 	quote.style.marginLeft = value * 3.3 + 'px';
 })
 
-let progress = document.getElementById('progressbar');
-let totalHeight = document.body.scrollHeight -
-    window.innerHeight;
-window.onscroll = function () {
+ let progress = document.getElementById('progressbar');
+ let totalHeight = document.body.scrollHeight -
+     window.innerHeight;
+ window.onscroll = function () {
     let progressHeight = (window.pageYOffset / totalHeight) * 100;
-    progress.style.height = progressHeight + "%";
+     progress.style.height = progressHeight + "%";
 }
 
 $(document).ready(function(){
@@ -95,4 +95,9 @@ $(document).ready(function(){
 	})
 })
 
-
+function changeBg(){
+	var menubar = document.getElementById('menubar');
+	var scrollValue = window.scrollY;
+	console.log(scrollValue);
+}
+window.addEventListener('scroll',changeBg);	
