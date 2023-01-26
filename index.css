@@ -122,7 +122,7 @@ html{
 
       /* Styling the three lines to make it an X */
       .toggle-button.close .bar:nth-child(1) {
-          transform: rotate(45deg) translate(7px, 7px);
+          transform: rotate(45deg) translate(5px, 5px);
       }
 
       .toggle-button.close .bar:nth-child(2) {
