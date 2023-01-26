@@ -1,7 +1,7 @@
-*{
-    margin: 0px;
-    padding: 0px;
-   font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -18,6 +18,7 @@ html{
     background-size: cover;
 }
 
+<<<<<<< HEAD
 li,a{
     list-style:none;
     text-decoration:none;
@@ -46,35 +47,57 @@ li,a{
     display: flex;
     gap: 30px;
     margin-top: 25px;
+=======
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: azure;
+  margin-top: 7px;
 }
-.link a{
-    padding: 10px;
-}
-.link a:hover{
-    background-color: aliceblue;
-    border-radius: 10px;
-    color: black;
-}
-.toggle-button{
 
-	display: none;
-	justify-content: space-between;
-	position: absolute;
-	right: 2rem;
-	flex-direction: column;
-    top: 2rem;
-	width: 40px;
-	height: 40px;
+.navbar img {
+  height: 100px;
+  width: 10rem;
+  border-radius: 13px;
 }
-.toggle-button .bar{
 
-	border: solid;
-	border-radius: 10px;
-	border-color: white;
-	background-color: white;
-	height: 3px;
-	width: 100%;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  color: azure;
 }
+.link {
+  display: flex;
+  gap: 30px;
+  background:url(images/j.jpg);
+>>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
+}
+.link a {
+  padding: 10px;
+}
+.link a:hover {
+  background-color: aliceblue;
+  border-radius: 10px;
+  color: black;
+}
+.toggle-button {
+  display: none;
+  justify-content: space-between;
+  position: absolute;
+  right: 2rem;
+  flex-direction: column;
+  top: 3.7rem;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+
+  cursor: pointer;
+
+  transition: all 0.5s ease-out;
+}
+<<<<<<< HEAD
 .head-text{
     color: azure;
     text-align: center;
@@ -82,41 +105,104 @@ li,a{
     font-family: koulen;
 }
 /*@media (width<900px){
+=======
 
-    .navbar{
-    
-        flex-direction: column;
-    }
-    .link{
-    
-        display: none;
-        flex-direction: column;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .link a{
-    
-        width: 100px;
-        margin: auto ;
-    }
-    .toggle-button{
-        display: flex;
-    }
-    .link.active{
-        display: flex;
-    
-    }
-    
-    }
+.toggle-button .bar {
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+  background-color: white;
+  height: 1px;
+  width: 100%;
+>>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
 
+
+<<<<<<< HEAD
 .box-1{
     /* background:linear-gradient(170deg,#2ebf60,#12895e);  */
    /* background: url(/images/bg.jpg);
     color: azure;
     padding: 30px;
     height:900px;
+=======
+  margin: 0 0 5px 0;
+
+  transition: all 0.5s ease-out;
+}
+.toggle-button.close {
+
+    transform: rotate(180deg);
+
+>>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
 }
 
-.head-text{
+        /* Styling the three lines to make it an X */
+
+        .toggle-button.close .bar:nth-child(1) {
+
+            transform: rotate(45deg) translate(6px, 6px);
+
+        }
+ 
+
+        .toggle-button.close .bar:nth-child(2) {
+
+            opacity: 0;
+
+        }
+ 
+
+        .toggle-button.close .bar:nth-child(3) {
+
+            transform: rotate(-45deg) translate(7px,-8px);
+
+        }
+
+
+@media (width<900px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .link {
+    display: none;
+    flex-direction: column;
+    margin-top: 20px;
     text-align: center;
+<<<<<<< HEAD
 }*/
+=======
+    padding: 20px;
+    border-radius: 15px;
+    background: rgb(164, 164, 164);
+  }
+  .link a {
+    width: 100px;
+    margin: auto;
+  }
+  .link li {
+    height: 20px;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .link.active {
+    display: flex;
+  }
+}
+
+.box-1 {
+  background: linear-gradient(170deg, #2ebf60, #12895e);
+  color: azure;
+  padding: 30px;
+  height: 900px;
+}
+
+.head-text {
+  text-align: center;
+  background-color: #65bc68;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+  border-radius: 10px;
+}
+>>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
