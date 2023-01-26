@@ -3,7 +3,6 @@
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-<<<<<<< HEAD
 html{
     scroll-behavior: smooth;
 }
@@ -17,27 +16,12 @@ html{
     height: 100vh;
     background: linear-gradient(135deg, var(--primary),var(--secondary),var(--tertiary)),url(/images/bg.jpg);
     background-size: cover;
-=======
-body{
-    /* background: linear-gradient(170deg, #2ebf60, #12895e); */
-    /* background:url(images/bg1.jpg);  */
-    
-}
-.bg{
-   background: url(images/bg1.jpg); 
-   object-fit:fill;
-   background-repeat: no-repeat,repeat;
-   background-size: cover;
-   height: 900px;
-   z-index: 1;
->>>>>>> b9825306341a796733b144b1d92239ab5da6af21
 }
 
 li,a{
     list-style:none;
     text-decoration:none;
   color: azure;
-<<<<<<< HEAD
     margin-top: 7px;
     font-weight: bold;
 }
@@ -62,36 +46,6 @@ li,a{
     display: flex;
     gap: 30px;
     margin-top: 25px;
-=======
-  margin-top: 7px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.navbar img {
-  height: 100px;
-  width: 10rem;
-  border-radius: 13px;
-  border-top: -20px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  color: azure;
-  background: rgba(250,250,250,0.2);
-}
-.link {
-  display: flex;
-  gap: 30px;
-  padding: 30px;
-}
-.sticky{
-  top: 0;
-  position: -webkit-sticky;
-  position: sticky;
->>>>>>> b9825306341a796733b144b1d92239ab5da6af21
 }
 .link a {
   padding: 10px;
