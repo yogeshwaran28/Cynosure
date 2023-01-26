@@ -16,6 +16,22 @@ html{
     height: 100vh;
     background: linear-gradient(135deg, var(--primary),var(--secondary),var(--tertiary)),url(/images/bg.jpg);
     background-size: cover;
+    object-fit: contain;
+}
+.box{
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  
+ 
+}
+.box img{
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+}
+.carousel-caption h3,p{
+  color: black;
 }
 .link-cont a,li{
     list-style:none;
@@ -26,9 +42,15 @@ html{
     font-size: 18px;
 }
 
+
+.container h2{
+  text-align: center;
+  padding: 30px;
+}
+
 .menubar img{
     height: 100px;
-    width: 10rem;
+    width: 18rem;
     border-radius: 11px; 
 }
 
@@ -58,7 +80,7 @@ html{
   position: absolute;
   right: 2rem;
   flex-direction: column;
-  top: 2.6rem;
+  top: 3.6rem;
   width: 30px;
 
   height: 20px;
@@ -138,7 +160,7 @@ html{
     flex-direction: column;
     padding: 15px;
     border-radius: 20px;
-    background: rgba(179, 179, 181, 0.6);
+    background: rgba(167, 167, 227, 0.6);
     position:absolute;
     right: 8vh;
     top: 15vh;
