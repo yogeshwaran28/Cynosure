@@ -65,6 +65,28 @@ html{
     font-family: 'Aboreto';
     font-weight: bold;
 }
+
+#demo{
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  width: 30rem;
+  background-color: white;
+  position: absolute;
+  font-weight: bold;
+  padding: 16px;
+  box-shadow: inset 4px 5px 6px rgb(109, 70, 203);
+  bottom: 20px;
+  text-align: center;
+  border-radius: 15px;
+ 
+ 
+}
+.out{
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+}
 .quote2{
   color: azure;
   font-size: 20px;
