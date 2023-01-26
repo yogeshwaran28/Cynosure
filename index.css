@@ -115,7 +115,6 @@ html{
   flex-direction: column;
   top: 3.6rem;
   width: 30px;
-
   height: 20px;
   height: 22px;
   cursor: pointer;
@@ -132,13 +131,24 @@ html{
 	width: 100%;
   transition: all 0.5s ease-out;
 }
+.head1{
+  width: 40%;
+  justify-content: center;
+  margin-left: 55vh;
+  text-align: center;
+  color: azure;
+}
+.head1 h2{
+  font-size: 40px;
+  font-weight: bold;
+}
 
 .head-text{
     color: azure;
     text-align: center;
-   
+    width: 60%;
+    margin-left: 38vh;
     font-family: koulen;
-
 }
 
 
