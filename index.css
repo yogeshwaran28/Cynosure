@@ -18,7 +18,6 @@ html{
     background-size: cover;
 }
 
-<<<<<<< HEAD
 li,a{
     list-style:none;
     text-decoration:none;
@@ -47,32 +46,6 @@ li,a{
     display: flex;
     gap: 30px;
     margin-top: 25px;
-=======
-li,
-a {
-  list-style: none;
-  text-decoration: none;
-  color: azure;
-  margin-top: 7px;
-}
-
-.navbar img {
-  height: 100px;
-  width: 10rem;
-  border-radius: 13px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0px;
-  color: azure;
-}
-.link {
-  display: flex;
-  gap: 30px;
-  background:url(images/j.jpg);
->>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
 }
 .link a {
   padding: 10px;
@@ -97,7 +70,6 @@ a {
 
   transition: all 0.5s ease-out;
 }
-<<<<<<< HEAD
 .head-text{
     color: azure;
     text-align: center;
@@ -105,35 +77,14 @@ a {
     font-family: koulen;
 }
 /*@media (width<900px){
-=======
-
-.toggle-button .bar {
-  border: solid;
-  border-radius: 10px;
-  border-color: white;
-  background-color: white;
-  height: 1px;
-  width: 100%;
->>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
 
 
-<<<<<<< HEAD
 .box-1{
     /* background:linear-gradient(170deg,#2ebf60,#12895e);  */
    /* background: url(/images/bg.jpg);
     color: azure;
     padding: 30px;
     height:900px;
-=======
-  margin: 0 0 5px 0;
-
-  transition: all 0.5s ease-out;
-}
-.toggle-button.close {
-
-    transform: rotate(180deg);
-
->>>>>>> 870a1ec6ba07674054655ac06990dbb99dbdb0c5
 }
 
         /* Styling the three lines to make it an X */
