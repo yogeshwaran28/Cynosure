@@ -132,22 +132,22 @@ html{
   transition: all 0.5s ease-out;
 }
 .head1{
-  width: 40%;
+
   justify-content: center;
-  margin-left: 55vh;
+
   text-align: center;
   color: azure;
 }
 .head1 h2{
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
 }
 
 .head-text{
     color: azure;
     text-align: center;
-    width: 60%;
-    margin-left: 38vh;
+    
     font-family: koulen;
 }
 
@@ -166,7 +166,7 @@ html{
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right,  #6bff01, #f2ff00 50%, rgba(29, 26, 26, 0.992) 50%);
+  background-image: linear-gradient(to right,  #9d1818  , #0573bc 50%, #1d1a1afd 50% );
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
@@ -181,7 +181,7 @@ html{
   bottom: -3px;
   z-index: 0;
   position: absolute;
-  background:linear-gradient(to left,#347407, #0cd383 50%) ;
+  background:linear-gradient(to left,#84ff3d, #2eabff) ;
   transition: all 0.3s ease-in-out;
 }
 #primary li a:hover {
@@ -204,7 +204,7 @@ html{
     flex-direction: column;
     padding: 15px;
     border-radius: 20px;
-    background: rgba(167, 167, 227, 0.6);
+    background: rgba(167, 167, 227, 0.9);
     position:absolute;
     right: 8vh;
     top: 15vh;
