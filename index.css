@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 *{  margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -62,7 +62,7 @@ html{
     color: azure;
 }
 .quote{
-    font-family: ;
+    font-family: 'Rancho';
 }
 .link-cont{
     display: flex;
