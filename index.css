@@ -202,7 +202,7 @@ html{
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right,  #9d1818  , #0573bc 50%, #1d1a1afd 50% );
+  background-image: linear-gradient(to right,  #9d1818 10%, #0573bc 56%, #1d1a1afd 50% );
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
