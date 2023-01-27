@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Rancho&family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Rancho&family=Solitreo&display=swap');
 *{  margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -84,8 +84,14 @@ html{
 }
 .quote{
     font-family: 'Aboreto';
+
     font-weight: bold;
     text-shadow:10PX 10PX 10PX black;
+
+    font-weight:bold;
+    font-size:30px;
+    letter-spacing: 3px;
+    margin-top: 90px;
 }
 #demo{
   font-size: 26px;
@@ -101,9 +107,8 @@ html{
   box-shadow: 10PX 10PX 10PX black;
   text-align: center;
   border-radius: 15px;
- 
- 
 }
+
 .out{
   -webkit-box-align: center;
   -webkit-box-pack: center;
@@ -115,12 +120,18 @@ html{
  border-radius: 20px;
  padding: 10px;
 }
+
 .quote2{
-  color: azure;
+  color:midnightblue;
   font-size: 20px;
+
   font-family: 'Solitreo';
   text-shadow:10PX 10PX 10PX black;
+
+  font-family: 'Crimson Text';
+
 }
+
 .link-cont{
     display: flex;
     gap: 30px;
@@ -158,7 +169,7 @@ html{
 .head1{
 
   justify-content: center;
-
+  margin-top: 40px;
   text-align: center;
   color: azure;
   text-shadow:10PX 10PX 10PX black;
@@ -170,7 +181,7 @@ html{
 }
 
 .head-text{
-    color: #e8f1f1;
+    color: azure;
     text-align: center;
     
     font-family: koulen;
@@ -273,6 +284,7 @@ html{
 
 }
 
+
 .end{
   text-align: center;
   color: #fafafc;
@@ -284,4 +296,6 @@ html{
   margin: auto;
   
 }
+
+
 
