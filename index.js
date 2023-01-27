@@ -6,13 +6,9 @@ function toggle() {
 	b.classList.toggle('active');
 }
 
-const menuBtn =
+const menuBtn =document.querySelector(".toggle-button");
 
-	document.querySelector(".toggle-button");
-
-const menu =
-
-	document.querySelector(".navbar");
+const menu =document.querySelector(".navbar");
 
 let showMenu = false;
 
@@ -36,12 +32,8 @@ function toggleMenu() {
 
 }
 
-
-
-
 	let progress = document.getElementById('progressbar');
-	let totalHeight = document.body.scrollHeight -
-		window.innerHeight;
+	let totalHeight = document.body.scrollHeight - window.innerHeight;
 	window.onscroll = function () {
 		let progressHeight = (window.pageYOffset / totalHeight) * 100;
 		progress.style.height = progressHeight + "%";
@@ -51,11 +43,8 @@ function toggleMenu() {
  	 	$(window).scroll(function () {
  		var scroll = $(window).scrollTop();
   		if (scroll > 100) {
- 	 			$(".menubar").css("background", "#fff")
-			
-				 
+ 	 			$(".menubar").css("background", "#fff")	 
  		}
-
  		else {
   	    	$(".menubar").css("background", "transparent")
  	 		}
