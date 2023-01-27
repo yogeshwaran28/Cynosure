@@ -17,6 +17,8 @@ html{
     background: linear-gradient(135deg, var(--primary),var(--secondary),var(--tertiary)),url(/images/bg.jpg);
     background-size: cover;
     object-fit: contain;
+    padding-top: 90px;
+  
 }
 .box{
   height: 400px;
@@ -24,6 +26,18 @@ html{
   margin: auto;
   
  
+}
+
+.bt{
+  width: fit-content;
+  margin: auto;
+  padding: 25px;
+}
+.st{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 999999;
 }
 .box img{
   height: 200px;
@@ -42,7 +56,10 @@ html{
     font-size: 18px;
 }
 
-
+.button{
+  border-radius: 20px !important;
+  box-shadow: 10PX 10PX 10PX black;
+}
 .container h2{
   text-align: center;
   padding: 30px;
@@ -55,14 +72,22 @@ html{
 }
 
 .menubar{
-    position:relative;
+   
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px 30px;
+    padding:  30px 30px
     color: azure;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 .quote{
     font-family: 'Aboreto';
+
+    font-weight: bold;
+    text-shadow:10PX 10PX 10PX black;
+
     font-weight:bold;
     font-size:30px;
     letter-spacing: 3px;
@@ -79,6 +104,7 @@ html{
   padding: 16px;
   box-shadow: inset 4px 5px 6px rgb(109, 70, 203);
   bottom: 20px;
+  box-shadow: 10PX 10PX 10PX black;
   text-align: center;
   border-radius: 15px;
 }
@@ -98,7 +124,12 @@ html{
 .quote2{
   color:midnightblue;
   font-size: 20px;
+
+  font-family: 'Solitreo';
+  text-shadow:10PX 10PX 10PX black;
+
   font-family: 'Crimson Text';
+
 }
 
 .link-cont{
@@ -128,9 +159,9 @@ html{
 
 	border: solid;
 	border-radius: 8px;
-	border-color: white;
-  border-width: 1px;
-	background-color: white;
+	border-color: rgb(0, 0, 0);
+  border-width: 2px;
+	background-color: rgb(0, 0, 0);
 	height: 1px;
 	width: 100%;
   transition: all 0.5s ease-out;
@@ -141,6 +172,7 @@ html{
   margin-top: 40px;
   text-align: center;
   color: azure;
+  text-shadow:10PX 10PX 10PX black;
 }
 .head1 h2{
   font-size: 40px;
@@ -251,3 +283,19 @@ html{
 
 
 }
+
+
+.end{
+  text-align: center;
+  color: #fafafc;
+  text-shadow:10PX 10PX 10PX black;
+  stroke-width: 100px;
+  font-stretch: semi-expanded;
+  stroke: #ffffff;
+  width: fit-content;
+  margin: auto;
+  
+}
+
+
+
