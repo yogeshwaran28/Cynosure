@@ -96,7 +96,7 @@ var x = setInterval(function () {
 		var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 		var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
 		var seconds = Math.floor((t % (1000 * 60)) / 1000);
-		document.getElementById("demo").innerHTML = days + "\nd "
+		document.getElementById("demo").innerHTML = days + "d "
 			+ hours + "h " + minutes + "m " + seconds + "s ";
 		if (t < 0) {
 			clearInterval(x);
@@ -104,17 +104,3 @@ var x = setInterval(function () {
 		}
 	}, 1000);
 })
-
-	// $(document).ready(function () {
-	// 	$(window).scroll(function () {
-	// 		var scroll = $(window).scrollTop();
-	// 		if (scroll > 100) {
-	// 			$(".menubar").css("background", "#fff")
-	// 		}
-
-	// 		else {
-	// 			$(".menubar").css("background", "#2eabff")
-	// 		}
-	// 	})
-	// })
-
