@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Raleway:wght@300&family=Rancho&family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Crimson+Text&family=Raleway:wght@300&family=Rancho&family=Solitreo&display=swap');
 
 * {
   margin: 0px;
@@ -144,6 +144,8 @@ li {
   right: 0;
   margin: auto;
   font-weight: bold;
+  font-family: 'Anton';
+  gap: 5px;
 }
 
 .carousel-caption h3 {
