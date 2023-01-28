@@ -135,12 +135,6 @@ li {
 }
 .tekace p{
   text-align: center;
-<<<<<<< HEAD
-  color:darkmagenta;
-  
-  letter-spacing: 3px;
-  
-=======
   background: linear-gradient(#1E9600,#FFF200,#FF0000);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -149,7 +143,6 @@ li {
   left: 0;
   right: 0;
   margin: auto;
->>>>>>> 766c04d7a143333e05d50e90aca5ef2f2d147169
   font-weight: bold;
   font-family: 'Anton';
   gap: 5px;
@@ -442,11 +435,6 @@ details {
   border: 2px solid rgb(66, 63, 63) !important;
 }
 
-<<<<<<< HEAD
-/* #getintouch {
-  text-align: center;
-=======
->>>>>>> 766c04d7a143333e05d50e90aca5ef2f2d147169
 
 
 #getintouch ul li {
@@ -455,9 +443,6 @@ details {
   font-weight: normal;
   font-size: 8px;
 
-<<<<<<< HEAD
-} */
-=======
 }
 .ftr3 p{
   font-size: 4px;
@@ -468,7 +453,6 @@ details {
   align-items: center;
   justify-content: space-around;
 }
->>>>>>> 766c04d7a143333e05d50e90aca5ef2f2d147169
 .footer {
   width: 100%;
   padding: 10px 0px 0px;
