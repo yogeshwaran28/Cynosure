@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Rancho&family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Raleway:wght@300&family=Rancho&family=Solitreo&display=swap');
 
 * {
   margin: 0px;
@@ -74,12 +74,29 @@ li {
   font-weight: bold;
   font-size: 18px;
 }
-
-/* .button{
-  border-radius: 20px !important;
-  box-shadow: 10PX 10PX 10PX black;
-  height: 5rem !important;
-} */
+.tek{
+  width: 20%;
+  align-items: center;
+  justify-content:center;
+  margin-top: -7vh;
+  margin-left: 75vh;
+}
+.clgname{
+  gap: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color:whitesmoke;
+  background:rgba(10, 10, 10, 0.3);
+  width: 68vh;
+  height:4.5vh;
+  display: flex;
+  position: absolute;
+  margin-left: 65vh;
+  font-family: 'Raleway';
+  border-radius: 10PX;
+  align-items: center;
+  justify-content: center;
+}
 .container2 h2 {
   text-align: center;
   padding: 30px;
@@ -106,37 +123,20 @@ li {
 
 .quote {
   font-family: 'Aboreto';
-
   font-weight: bold;
   text-shadow: 10PX 10PX 10PX black;
-
   font-weight: bold;
   font-size: 30px;
   letter-spacing: 3px;
-  margin-top: 6rem;
+  margin-top: -1.5rem;
 }
-
-/* #demo{
-  font-size: 26px;
-  color: rgb(0, 0, 0);
-  border: 1px solid;
-  width: 30rem;
-  background-color: white;
-
-  font-weight: bold;
-  padding: 16px;
-
-  bottom: 20px;
-  box-shadow: 10PX 10PX 10PX black;
+.tekace p{
   text-align: center;
-  border-radius: 15px;
+  background: linear-gradient(#1E9600,#FFF200,#FF0000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
 }
-
-.out{
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
-  display: -webkit-box;
-} */
 .carousel-caption h3 {
   text-decoration:underline;
   font-size: 18px !important;
@@ -151,12 +151,10 @@ li {
 }
 
 .quote2 {
-  color: rgb(248, 248, 252);
+  color: white;
   font-size: 20px;
-
   font-family: 'Solitreo';
   text-shadow: 10PX 10PX 10PX black;
-
   font-family: 'Crimson Text';
 
 }
@@ -201,7 +199,7 @@ li {
 .head1 {
 
   justify-content: center;
-  margin-top: 40px;
+  margin-top: -30px;
   text-align: center;
   color: azure;
   text-shadow: 10PX 10PX 10PX black;
@@ -441,12 +439,13 @@ details {
 }
 .footer {
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   color: azure;
   background-color: rgb(37, 34, 34);
   text-align: center;
   padding: 20px;
- 
+  display: flex;
+  gap: 15px;
 }
 .footer ul li{
   font-size: 10px;
@@ -462,6 +461,7 @@ footer ul li{
 }
 .footer p{
   color: goldenrod;
+  font-size: 13px;
 }
 
 details{
@@ -478,18 +478,19 @@ img.pn{
   background-color: #fafafc;
   border: none;
 } 
-div.space{
+/* div.space{
   display: grid;
   grid-template-columns: 220px 20px;
   justify-content: center;
   align-items: center;
   gap: 5px;
  
-}
+} */
 span.mon{
   color: #ff012b;
 }
 
+          /* Media Screen */
 
 @media (width<900px) {
   .menubar {
