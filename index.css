@@ -11,6 +11,9 @@ html{
     --secondary:hsla(280, 78%, 69%,0.5);
     --tertiary: hsla(356, 90%, 64%,0.5);
 }
+title{
+  font-family: 'Solitreo';
+}
 .box-1{
     width: 100%;
     height: 100vh;
@@ -18,20 +21,20 @@ html{
     background-size: cover;
     object-fit: contain;
     padding-top: 90px;
-  
+
 }
 .box{
   height: 400px;
   width: 400px;
   margin: auto;
-  
- 
+
+
 }
 
 .bt{
   width: fit-content ;
   margin: 25px auto;
-  
+
 }
 .st{
   position: sticky;
@@ -57,24 +60,25 @@ html{
     text-shadow:10PX 10PX 10PX black;
 }
 
-.button{
+/* .button{
   border-radius: 20px !important;
   box-shadow: 10PX 10PX 10PX black;
   height: 5rem !important;
-}
+} */
 .container2 h2{
   text-align: center;
   padding: 30px;
+
 }
 
 .menubar img{
     height: 100px;
     width: 18rem;
-    border-radius: 11px; 
+    border-radius: 11px;
 }
 
 .menubar{
-   
+
     display: flex;
     justify-content: space-between;
     padding:   10px ;
@@ -95,7 +99,7 @@ html{
     letter-spacing: 3px;
     margin-top: 6rem;
 }
-#demo{
+/* #demo{
   font-size: 26px;
   color: rgb(0, 0, 0);
   border: 1px solid;
@@ -115,7 +119,7 @@ html{
   -webkit-box-align: center;
   -webkit-box-pack: center;
   display: -webkit-box;
-}
+} */
 .carousel-caption h3{
   border: 2px solid;
   transition: all 0.5s ease-out;
@@ -185,7 +189,7 @@ html{
 .head-text{
     color: azure;
     text-align: center;
-    
+
     font-family: koulen;
 }
 
@@ -204,7 +208,7 @@ html{
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right,  #9d1818 10%, #0573bc 56%, #1d1a1afd 50% );
+  background-image: linear-gradient(to right,  #9d1818 18%, #0573bc 65%, #1d1a1afd 50% );
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
@@ -238,18 +242,169 @@ html{
   stroke: #ffffff;
   width: fit-content;
   margin: auto;
-  
+
+}
+
+.countdown-timer-container {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 0.3em solid #bb00ff78;
+  background-image: url(/images/clock.jpg);
+    opacity: 0.7;
+    border-radius: 1.6rem;
+    box-shadow: inset 5px px 10px #4c2df9f5;
+    padding: 15px;
+ }
+ .countdown-timer-container div {
+  width: 25%;
+  text-align: center;
+  font-size: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .countdown-timer-values {
+  font-size: 48px !important;
+  color: #ffffff;
+ }
+ div.not{ 
+  color: #ffffff;
+  font-weight: bold;
+ 
+ }
+
+.button {
+  --c:#5adbb5;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid rgb(0, 255, 81,0.4);
+  border-radius: 1.9em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1px;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.4s;
+  margin: 1em;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button span{
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.button:hover {
+  color: rgb(12, 128, 190);
+}
+
+.button:hover span {
+  transform: translateY(0) scale(2);
 }
 
 
+
+.button span:nth-child(1) {
+  --n: 1;
+}
+
+.button span:nth-child(2) {
+  --n: 2;
+}
+
+.button span:nth-child(3) {
+  --n: 3;
+}
+
+.button span:nth-child(4) {
+  --n: 4;
+}
+
+.details{
+  height: 20rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details p{
+  padding: 20px;
+}
+details{
+  font-size: 20px;
+}
+.ven{
+  text-align: center;
+}
+
+.map{
+  padding: 30px;
+  background-image: url(images/map.jpg);
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  overflow-x: hidden;
+  align-items: center;
+  object-fit: cover;
+  
+}
+.ifr{
+  border-radius: 5px;
+
+ 
+}
+
+.carousel-indicators li{
+  
+  background: #3b8ddf !important;
+  color: 3b8ddf;
+}
+.carousel-indicators li.active{
+  border: 2px solid rgb(66, 63, 63) !important;
+}
 @media (width<900px){
   .menubar{
 
     flex-direction: column;
   }
- .button{
-  height: 3.6rem !important;
- }
+  .map{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .ifr{
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+  }
+
  .end h3{
   font-size: 18px;
 }
@@ -259,7 +414,7 @@ html{
  }
   .link-cont{
     display: none;
-    width: 150px;
+    width: fit-content;
     margin: auto ;
     flex-direction: column;
     padding: 15px;
@@ -269,8 +424,8 @@ html{
     right: 8vh;
     top: 15vh;
   }
-  .link-cont a,li{
-    color: azure;
+  .link-cont a{
+
     text-decoration: none;
   }
   .head1 h2{
@@ -278,20 +433,49 @@ html{
     padding: 10px;
   }
   .quote{
-    font-size: 28px;
+    font-size: 18px;
   }
   .end{
     font-size: 20px;
   }
+
+  
   .toggle-button{
     display: flex;
   }
+  .countdown-timer-container {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0.3em solid #bb00ff78;
+    padding: 10px;
+    background-image: url(/images/clock.jpg);
+    opacity: 0.7;
+    border-radius: 1.6rem;
+    box-shadow: inset 5px px 10px #4c2df9f5;
+   }
+  .countdown-timer-container div {
+    font-size: 20px;
+    text-align: center;}
+    div.not{ 
+      color: #ffffff;
+      font-weight: bold;
+     
+     }
+   .countdown-timer-values {
+    font-size: 20px !important;
+    color: #ffffff;
+    font-weight: bold;
+   }
+
   .link-cont.active{
     display: flex;
-    
-  
+
+
   }
-  
+
         /* Adding transform to the X */
         .toggle-button.close {
           transform: rotate(180deg);
@@ -315,11 +499,11 @@ html{
 
 
 
-
 }
 
+.footer{
 
-
+}
 
 
 
