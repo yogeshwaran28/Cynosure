@@ -75,23 +75,26 @@ li {
   font-size: 18px;
 }
 .tek{
-  width: 20%;
-  align-items: center;
-  justify-content:center;
-  margin-top: -7vh;
-  margin-left: 75vh;
+  width: fit-content;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+ 
+
+ 
+  margin: auto;
 }
 .clgname{
-  gap: 5px;
+  
   text-align: center;
   text-transform: uppercase;
   color:whitesmoke;
   background:rgba(10, 10, 10, 0.3);
-  width: 68vh;
-  height:4.5vh;
+  width: fit-content;
+  
   display: flex;
-  position: absolute;
-  margin-left: 65vh;
+  padding: 3px;
+  margin: auto;
   font-family: 'Raleway';
   border-radius: 10PX;
   align-items: center;
@@ -132,14 +135,26 @@ li {
 }
 .tekace p{
   text-align: center;
+<<<<<<< HEAD
   color:darkmagenta;
   
   letter-spacing: 3px;
   
+=======
+  background: linear-gradient(#1E9600,#FFF200,#FF0000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: fit-content;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+>>>>>>> 766c04d7a143333e05d50e90aca5ef2f2d147169
   font-weight: bold;
   font-family: 'Anton';
   gap: 5px;
 }
+
 .carousel-caption h3 {
   text-decoration:underline;
   font-size: 18px !important;
@@ -237,7 +252,7 @@ li {
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #9d1818 40%, #0573bc 50%, #f9f7f7fd 50%);
+  background-image: linear-gradient(to right, #b40d0d 20%, #0573bc  , #f9f7f7fd 50%);
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
@@ -253,7 +268,7 @@ li {
   bottom: -3px;
   z-index: 0;
   position: absolute;
-  background: linear-gradient(to left, #84ff3d, #2eabff);
+  background: linear-gradient(to right, #9d1818, #0573bc);
   transition: all 0.3s ease-in-out;
 }
 
@@ -319,13 +334,13 @@ div.not {
   border: 0.3em solid rgb(0, 255, 81, 0.4);
   border-radius: 1.9em;
   width: 12em;
-  height: 3em;
+  height: 2.7em;
   text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;
   letter-spacing: 0.1px;
   text-align: center;
-  line-height: 3em;
+  line-height: 2em;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -427,32 +442,46 @@ details {
   border: 2px solid rgb(66, 63, 63) !important;
 }
 
+<<<<<<< HEAD
 /* #getintouch {
   text-align: center;
+=======
+>>>>>>> 766c04d7a143333e05d50e90aca5ef2f2d147169
 
-
-}
 
 #getintouch ul li {
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: normal;
-  font-size: 10px;
+  font-size: 8px;
 
+<<<<<<< HEAD
 } */
+=======
+}
+.ftr3 p{
+  font-size: 4px;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+>>>>>>> 766c04d7a143333e05d50e90aca5ef2f2d147169
 .footer {
   width: 100%;
-  height: 30vh;
+  padding: 10px 0px 0px;
   color: azure;
   background-color: rgb(37, 34, 34);
   text-align: center;
-  padding: 20px;
-  display: flex;
-  gap: 15px;
+  
+  
 }
-.footer ul li{
-  font-size: 10px;
-  font-weight: normal;
+.foot ul li{
+  
+  display: grid;
+  grid-template-columns: 80px 10px;
 }
 .footer h2:hover{
   color: goldenrod;
@@ -492,7 +521,10 @@ img.pn{
 span.mon{
   color: #ff012b;
 }
+.last{
+  background: rgba(167, 167, 227, 0.9);
 
+}
           /* Media Screen */
 
 @media (width<900px) {
@@ -513,7 +545,7 @@ span.mon{
   .details{
     height: 23rem;
   }
-
+ 
   .ifr {
     border-radius: 5px;
     width: 70%;
@@ -546,13 +578,14 @@ span.mon{
 
     text-decoration: none;
   }
-  .footer{
-    height: 42vh;
-  }
+  
 
   .head1 h2 {
     font-size: 28px;
     padding: 10px;
+  }
+  .footer p{
+    font-size: 9px;
   }
 
   .quote {
@@ -580,10 +613,12 @@ span.mon{
     opacity: 0.7;
     border-radius: 1.6rem;
     box-shadow: inset 5px px 10px #4c2df9f5;
+    padding: 4px;
+    height: 70px;
   }
 
   .countdown-timer-container div {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 
