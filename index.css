@@ -138,10 +138,16 @@ li {
   display: -webkit-box;
 } */
 .carousel-caption h3 {
-  border: 2px solid;
-  transition: all 0.5s ease-out;
+  text-decoration:underline;
+  font-size: 18px !important;
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
+}
+
+.carousel-caption ul li{
+  font-size: 14px;
+  color: #0f0f0f;
+  font-weight: normal;
 }
 
 .quote2 {
@@ -230,7 +236,7 @@ li {
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #9d1818 18%, #0573bc 65%, #1d1a1afd 50%);
+  background-image: linear-gradient(to right, #9d1818 40%, #0573bc 50%, #f9f7f7fd 50%);
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
@@ -282,12 +288,13 @@ li {
   border-radius: 1.6rem;
   box-shadow: inset 5px px 10px #4c2df9f5;
   padding: 15px;
+  height: 100px;
 }
 
 .countdown-timer-container div {
   width: 25%;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px !important;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -456,11 +463,14 @@ footer ul li{
 .footer p{
   color: goldenrod;
 }
-.fas fa-phone{
-  color: white;
-}
+
 details{
   font-weight: bold;
+}
+
+details > summary{
+  
+  display: list-item !important;
 }
 img.pn{
   height: 15px;
@@ -479,6 +489,7 @@ div.space{
 span.mon{
   color: #ff012b;
 }
+
 
 @media (width<900px) {
   .menubar {
@@ -530,6 +541,9 @@ span.mon{
   .link-cont a {
 
     text-decoration: none;
+  }
+  .footer{
+    height: 42vh;
   }
 
   .head1 h2 {
