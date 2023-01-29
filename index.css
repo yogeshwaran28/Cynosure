@@ -243,7 +243,7 @@ li {
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #b40d0d 20%, #0573bc  , #f9f7f7fd 50%);
+  background-image: linear-gradient(to right, #b40d0d 15%, #0573bc  , #000000fd 50%);
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;

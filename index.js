@@ -38,7 +38,7 @@ function toggleMenu() {
  	 	$(window).scroll(function () {
  		var scroll = $(window).scrollTop();
   		if (scroll > 100) {
- 	 			$(".menubar").css("background", "#fff")	 
+ 	 			$(".menubar").css("background", "#fff")
  		}
  		else {
   	    	$(".menubar").css("background", "transparent")
